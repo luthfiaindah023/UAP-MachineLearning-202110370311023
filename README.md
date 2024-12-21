@@ -8,7 +8,6 @@ Proyek ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seora
 Buat lingkungan virtual baru:
 
 bash
-Salin kode
 python -m venv myvenv
 Aktifkan lingkungan virtual:
 
