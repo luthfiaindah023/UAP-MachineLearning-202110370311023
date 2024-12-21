@@ -5,44 +5,41 @@ Proyek ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seora
 **Link Dataset** : [Banking Dataset](https://www.kaggle.com/datasets/rashmiranu/banking-dataset-classification?resource=download&select=new_train.csv)
 
 ## ⚙️ Langkah Instalasi
+Cara Instalasi
+
+Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi:
+
 Buat lingkungan virtual baru:
 
-bash
 python -m venv myvenv
+
 Aktifkan lingkungan virtual:
 
 Windows:
-bash
-Salin kode
+
 myvenv\Scripts\activate
+
 Mac/Linux:
-bash
-Salin kode
+
 source myvenv/bin/activate
+
 Instal PDM untuk manajemen pustaka:
 
-bash
-Salin kode
 pip install pdm
+
 Inisialisasi proyek dengan PDM:
 
-bash
-Salin kode
 pdm init
+
 Instal pustaka yang diperlukan:
 
-bash
-Salin kode
 pip install streamlit
 pip install tensorflow
 pip install joblib
 pip install scikit-learn
 pip install seaborn
 pip install pytorch-tabnet
-Masukkan folder src yang telah disiapkan ke dalam lingkungan proyek Anda.
+
+Masukkan folder src ke dalam lingkungan proyek Anda.
 
 Jalankan aplikasi:
-
-bash
-Salin kode
-pdm run streamlit run app.py
