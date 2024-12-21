@@ -52,7 +52,6 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
    pdm run streamlit run app.py
    ```  
 
-Aplikasi akan berjalan di browser pada alamat `http://127.0.0.1:8501/`.  
 
 ---
 
