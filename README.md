@@ -27,6 +27,9 @@ Bank Portugis mengalami penurunan pendapatan dan berusaha mencari solusi untuk m
 
 ---
 
+## 📑Overview Dataset
+Dataset ini berasal dari kaggle yang berisi tentang promosi pemasaran yang dilakukan oleh Bank Portugis melalui komunikasi telepon. Data berjumlah 32.950 yang terdiri dari 21 fitur yang mencakup informasi demografis, status finansial, dan riwayat interaksi pelanggan dengan bank. Target variabel adalah "y", yang menunjukkan apakah pelanggan berlangganan deposito berjangka ("yes") atau tidak ("no")
+
 ## ⚙️ Langkah Instalasi
 Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi:  
 
