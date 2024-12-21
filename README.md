@@ -93,7 +93,6 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 | macro avg                 | 0.78     | 0.72      | 0.75     | 6,59     |
 | weighted avg              | 0.89     | 0.90      | 0.90     | 6,59     |
 
-**TabNet** terbukti menjadi model terbaik dengan akurasi tertinggi sebesar **88%**.
 
 ---
 
