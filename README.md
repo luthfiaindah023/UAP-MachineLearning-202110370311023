@@ -82,6 +82,16 @@ Aplikasi ini menawarkan berbagai model machine learning:
 
 Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
+**- Model Random Forest**
+
+|                           | Precision|   Recall  | F1-Score | support  |
+|---------------------------|----------|-----------|----------|----------|
+| No                        | 0.92     | 0.97      | 0.94     | 5,798    |
+| Yes                       | 0.65     | 0.38      | 0.48     | 792      |
+| accuracy                  | 0.90     | 0.90      | 0.90     |          |
+| macro avg                 | 0.78     | 0.67      | 0.71     | 6,59     |
+| weighted avg              | 0.89     | 0.90      | 0.89     | 6,59     |
+
 **- Model TabNet**
 
 |                           | Precision|   Recall  | F1-Score | support  |
