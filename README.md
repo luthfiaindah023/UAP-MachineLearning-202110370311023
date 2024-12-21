@@ -1,7 +1,27 @@
 # 📊 Prediksi Nasabah Deposito Berjangka
 
 ## 🔖 Deskripsi Project  
-Proyek ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seorang nasabah akan berlangganan deposito berjangka berdasarkan data pemasaran. Dengan pendekatan berbasis machine learning dan deep learning, analisis ini membantu bank meningkatkan efisiensi promosi pemasaran mereka dengan menargetkan nasabah yang lebih berpotensi.  
+Bank Portugis mengalami penurunan pendapatan dan berusaha mencari solusi untuk mengatasinya. Setelah melakukan investigasi, ditemukan bahwa penyebab utamanya adalah kurangnya investasi dari nasabah pada deposito berjangka. Project ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seorang nasabah akan berlangganan deposito berjangka ("ya/tidak") berdasarkan fitur yang tersedia. Dengan pendekatan berbasis machine learning dan deep learning, analisis ini membantu bank meningkatkan efisiensi promosi pemasaran mereka dengan menargetkan nasabah yang lebih berpotensi.
+
+### Fitur Dataset
+| **Fitur**     | **Tipe Fitur**         | **Deskripsi**                                                                                                                                         |
+|---------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
+| age           | Numerik                | Usia nasabah                                                                                                                                           |
+| job           | Kategorikal (nominal) | Jenis pekerjaan ('admin.','blue-collar','entrepreneur', dll.)                                                                                          |
+| marital       | Kategorikal (nominal) | Status pernikahan ('divorced','married','single','unknown')                                                                                            |
+| education     | Kategorikal (nominal) | Tingkat pendidikan ('basic.4y','basic.6y','high.school', dll.)                                                                                         |
+| default       | Kategorikal (nominal) | Kredit macet? ('no','yes','unknown')                                                                                                                   |
+| housing       | Kategorikal (nominal) | Memiliki pinjaman rumah? ('no','yes','unknown')                                                                                                        |
+| loan          | Kategorikal (nominal) | Memiliki pinjaman pribadi? ('no','yes','unknown')                                                                                                      |
+| contact       | Kategorikal (nominal) | Jenis kontak komunikasi ('cellular','telephone')                                                                                                       |
+| month         | Kategorikal (ordinal) | Bulan terakhir kontak ('jan', 'feb', ... , 'dec')                                                                                                      |
+| day_of_week   | Kategorikal (ordinal) | Hari terakhir kontak ('mon','tue', dll.)                                                                                                              |
+| duration      | Numerik                | Durasi kontak terakhir, dalam detik (atribut ini sangat memengaruhi output)                                                                            |
+| campaign      | Numerik                | Jumlah kontak selama kampanye ini untuk nasabah                                                                                                        |
+| pdays         | Numerik                | Jumlah hari setelah kontak terakhir dari kampanye sebelumnya (999 berarti tidak pernah dihubungi sebelumnya)                                           |
+| previous      | Numerik                | Jumlah kontak sebelumnya                                                                                                                               |
+| poutcome      | Kategorikal (nominal) | Hasil kampanye sebelumnya ('failure','nonexistent','success')                                                                                          |
+| y             | Biner                  | Apakah nasabah berlangganan deposito berjangka? ('yes','no')     
 
 **Dataset**: [Dataset](https://www.kaggle.com/datasets/rashmiranu/banking-dataset-classification?resource=download&select=new_train.csv)
 
