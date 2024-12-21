@@ -8,13 +8,6 @@ Proyek ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seora
 ---
 
 ## ⚙️ Langkah Instalasi
-
-### Prasyarat  
-Pastikan sistem Anda sudah terpasang:  
-1. **Python 3.8 atau lebih baru**  
-2. **PDM (Python Development Master)**  
-
-### Cara Instalasi  
 Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi:  
 
 1. **Buat lingkungan virtual baru:**  
@@ -69,6 +62,7 @@ Aplikasi akan berjalan di browser pada alamat `http://127.0.0.1:8501/`.
 - **Mengisi Missing Values:**
   - Kolom numerik diisi dengan rata-rata.
   - Kolom kategorikal diisi dengan nilai modus.
+- **Normalisasi:** Menstandarisasi fitur dan target dengan menggunakan metode standar scaler.
 - **Encoding Kategori:** Mengonversi variabel kategorikal menjadi numerik dengan metode one-hot encoding.
 
 ### Pemilihan Model
@@ -89,13 +83,15 @@ Aplikasi ini menawarkan berbagai model machine learning:
 
 Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
-| Model                     | Akurasi | Precision | Recall | F1-Score |
-|---------------------------|---------|-----------|--------|----------|
-| Logistic Regression       | 0.82    | 0.76      | 0.65   | 0.70     |
-| Decision Tree             | 0.80    | 0.75      | 0.66   | 0.70     |
-| Random Forest             | 0.85    | 0.79      | 0.72   | 0.75     |
-| Neural Network            | 0.86    | 0.80      | 0.74   | 0.77     |
-| **TabNet**                | **0.88**| **0.82**  | **0.78**| **0.80** |
+**- Model TabNet**
+
+|                           | Precision|   Recall  | F1-Score | support  |
+|---------------------------|----------|-----------|----------|----------|
+| No                        | 0.93     | 0.96      | 0.94     | 5,79     |
+| Yes                       | 0.63     | 0.48      | 0.55     | 792      |
+| accuracy                  | 0.90     | 0.90      | 0.90     |          |
+| macro avg                 | 0.78     | 0.72      | 0.75     | 6,59     |
+| weighted avg              | 0.89     | 0.90      | 0.90     | 6,59     |
 
 **TabNet** terbukti menjadi model terbaik dengan akurasi tertinggi sebesar **88%**.
 
@@ -106,6 +102,6 @@ Proyek ini memberikan solusi berbasis machine learning yang dapat membantu bank 
 
 ---
 
-Terima kasih telah menggunakan aplikasi ini! Semoga bermanfaat untuk tugas akhir Anda.
+Terima kasih telah menggunakan aplikasi ini!
 
 
