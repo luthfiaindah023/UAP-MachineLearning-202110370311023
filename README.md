@@ -109,9 +109,10 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
 **- Model Random Forest**
 - **Confusion Matrix**
-  !([https://drive.google.com/file/d/1bzunwOooOeG_BQ7LartxiEUn-g-uMelu/view?usp=sharing])
+  !(https://drive.google.com/file/d/1bzunwOooOeG_BQ7LartxiEUn-g-uMelu/view?usp=sharing)
   
 - **Classification Report**
+  
 |                           | Precision|   Recall  | F1-Score | support  |
 |---------------------------|----------|-----------|----------|----------|
 | No                        | 0.93     | 0.97      | 0.95     | 5,766    |
@@ -122,7 +123,7 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
 **- Model TabNet**
 - **Confusion Matrix**
-  !([https://drive.google.com/file/d/1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9/view?usp=sharing])
+  !(https://drive.google.com/file/d/1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9/view?usp=sharing)
 
 - **Classification Report**
 
