@@ -102,28 +102,37 @@ Aplikasi ini menawarkan berbagai model machine learning:
 ---
 
 ## 📊 Hasil Analisis
+- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 93%
+- **Decision Tree** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi.
 
 Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
 **- Model Random Forest**
-
+- **Confusion Matrix**
+  !([https://drive.google.com/file/d/1bzunwOooOeG_BQ7LartxiEUn-g-uMelu/view?usp=sharing])
+  
+- **Classification Report**
 |                           | Precision|   Recall  | F1-Score | support  |
 |---------------------------|----------|-----------|----------|----------|
-| No                        | 0.92     | 0.97      | 0.94     | 5,798    |
-| Yes                       | 0.65     | 0.38      | 0.48     | 792      |
-| accuracy                  | 0.90     | 0.90      | 0.90     |          |
-| macro avg                 | 0.78     | 0.67      | 0.71     | 6,59     |
-| weighted avg              | 0.89     | 0.90      | 0.89     | 6,59     |
+| No                        | 0.93     | 0.97      | 0.95     | 5,766    |
+| Yes                       | 0.97     | 0.93      | 0.95     | 5,930    |
+| accuracy                  | 0.95     | 0.95      | 0.95     |          |
+| macro avg                 | 0.95     | 0.95      | 0.95     | 11,696   |
+| weighted avg              | 0.95     | 0.95      | 0.95     | 11,696   |
 
 **- Model TabNet**
+- **Confusion Matrix**
+  !([https://drive.google.com/file/d/1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9/view?usp=sharing])
+
+- **Classification Report**
 
 |                           | Precision|   Recall  | F1-Score | support  |
 |---------------------------|----------|-----------|----------|----------|
-| No                        | 0.93     | 0.96      | 0.94     | 5,79     |
-| Yes                       | 0.63     | 0.48      | 0.55     | 792      |
-| accuracy                  | 0.90     | 0.90      | 0.90     |          |
-| macro avg                 | 0.78     | 0.72      | 0.75     | 6,59     |
-| weighted avg              | 0.89     | 0.90      | 0.90     | 6,59     |
+| No                        | 0.92     | 0.98      | 0.95     | 5,766    |
+| Yes                       | 0.98     | 0.91      | 0.94     | 5,930    |
+| accuracy                  | 0.94     | 0.94      | 0.94     |          |
+| macro avg                 | 0.95     | 0.95      | 0.94     | 11,696   |
+| weighted avg              | 0.95     | 0.94      | 0.94     | 11,696   |
 
 
 ---
