@@ -107,35 +107,35 @@ Aplikasi ini menawarkan berbagai model machine learning:
 
 Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
-**- Model Random Forest**
-- **Confusion Matrix**
-  ![Confusion Matrix](https://drive.google.com/uc?id=1bzunwOooOeG_BQ7LartxiEUn-g-uMelu)
+- **Model Random Forest**
+  - **Confusion Matrix**
+    ![Confusion Matrix](https://drive.google.com/uc?id=1bzunwOooOeG_BQ7LartxiEUn-g-uMelu)
  
   
-- **Classification Report**
+  - **Classification Report**
   
-|                           | Precision|   Recall  | F1-Score | support  |
-|---------------------------|----------|-----------|----------|----------|
-| No                        | 0.93     | 0.97      | 0.95     | 5,766    |
-| Yes                       | 0.97     | 0.93      | 0.95     | 5,930    |
-| accuracy                  | 0.95     | 0.95      | 0.95     |          |
-| macro avg                 | 0.95     | 0.95      | 0.95     | 11,696   |
-| weighted avg              | 0.95     | 0.95      | 0.95     | 11,696   |
+    |                           | Precision|   Recall  | F1-Score | support  |
+    |---------------------------|----------|-----------|----------|----------|
+    | No                        | 0.93     | 0.97      | 0.95     | 5,766    |
+    | Yes                       | 0.97     | 0.93      | 0.95     | 5,930    |
+    | accuracy                  | 0.95     | 0.95      | 0.95     |          |
+    | macro avg                 | 0.95     | 0.95      | 0.95     | 11,696   |
+    | weighted avg              | 0.95     | 0.95      | 0.95     | 11,696   |
 
-**- Model TabNet**
-- **Confusion Matrix**
-  ![Deskripsi Gambar](https://drive.google.com/uc?id=1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9)
+- **Model TabNet**
+  - **Confusion Matrix**
+    ![Deskripsi Gambar](https://drive.google.com/uc?id=1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9)
 
 
-- **Classification Report**
+  - **Classification Report**
 
-|                           | Precision|   Recall  | F1-Score | support  |
-|---------------------------|----------|-----------|----------|----------|
-| No                        | 0.92     | 0.98      | 0.95     | 5,766    |
-| Yes                       | 0.98     | 0.91      | 0.94     | 5,930    |
-| accuracy                  | 0.94     | 0.94      | 0.94     |          |
-| macro avg                 | 0.95     | 0.95      | 0.94     | 11,696   |
-| weighted avg              | 0.95     | 0.94      | 0.94     | 11,696   |
+    |                           | Precision|   Recall  | F1-Score | support  |
+    |---------------------------|----------|-----------|----------|----------|
+    | No                        | 0.92     | 0.98      | 0.95     | 5,766    |
+    | Yes                       | 0.98     | 0.91      | 0.94     | 5,930    |
+    | accuracy                  | 0.94     | 0.94      | 0.94     |          |
+    | macro avg                 | 0.95     | 0.95      | 0.94     | 11,696   |
+    | weighted avg              | 0.95     | 0.94      | 0.94     | 11,696   |
 
 
 ---
