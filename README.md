@@ -124,7 +124,7 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
 **- Model TabNet**
 - **Confusion Matrix**
-  !(https://github.com/user-attachments/assets/303e0f72-58e8-499c-8f44-1d3c9653f094)
+  ![Deskripsi Gambar](https://drive.google.com/uc?id=1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9)
 
 
 - **Classification Report**
