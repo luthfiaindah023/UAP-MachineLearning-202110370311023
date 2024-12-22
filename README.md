@@ -1,4 +1,4 @@
-# 📊 Prediksi Nasabah Deposito Berjangka
+# 📊 Prediksi Nasabah yang Berpotensi Berlangganan Deposito Berjangka
 
 ## 🔖 Deskripsi Project  
 Bank Portugis mengalami penurunan pendapatan dan berusaha mencari solusi untuk mengatasinya. Setelah melakukan investigasi, ditemukan bahwa penyebab utamanya adalah kurangnya investasi dari nasabah pada deposito berjangka. Project ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seorang nasabah akan berlangganan deposito berjangka ("ya/tidak") berdasarkan fitur yang tersedia. Dengan pendekatan berbasis machine learning dan deep learning, analisis ini membantu bank meningkatkan efisiensi promosi pemasaran mereka dengan menargetkan nasabah yang lebih berpotensi.
