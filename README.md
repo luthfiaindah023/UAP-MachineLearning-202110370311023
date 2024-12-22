@@ -109,7 +109,8 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 
 **- Model Random Forest**
 - **Confusion Matrix**
-  !(https://drive.google.com/file/d/1bzunwOooOeG_BQ7LartxiEUn-g-uMelu/view?usp=sharing)
+  ![Confusion Matrix](https://drive.google.com/uc?id=1bzunwOooOeG_BQ7LartxiEUn-g-uMelu)
+ 
   
 - **Classification Report**
   
