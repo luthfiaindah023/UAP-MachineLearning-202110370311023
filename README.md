@@ -79,9 +79,9 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
 
 ---
 
-## 🚀 Preperocessing dan Modelling
+## 🚀 Preprocessing dan Modelling
 
-### Penanganan Data
+### Preprocessing Data
 - **Mengisi Missing Values:**
   - Kolom numerik diisi dengan rata-rata.
   - Kolom kategorikal diisi dengan nilai modus.
@@ -89,8 +89,8 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
 - **Encoding Kategori:** Mengonversi variabel kategorikal menjadi numerik dengan metode one-hot encoding.
 - **Split Data:** Pembagian data uji 20% dan data latih 80%.
 
-### Pemilihan Model
-Aplikasi ini menawarkan berbagai model machine learning:
+### Modelling
+Aplikasi ini menggunakan berbagai model, yaitu:
 1. **Decision Tree**: Model interpretable untuk pengambilan keputusan.
 2. **Random Forest**: Ensambel pohon untuk performa yang lebih stabil.
 3. **MLPClassifier**: Model jaringan saraf multilayer perceptron (MLP) untuk klasifikasi di scikit-learn.
@@ -99,7 +99,8 @@ Aplikasi ini menawarkan berbagai model machine learning:
 ### Evaluasi Model
 - Menghitung metrik seperti **akurasi, precision, recall,** dan **F1-Score**.
 - Menampilkan perbandingan prediksi vs hasil aktual.
-- Menyimpan model yang dilatih untuk digunakan kembali di masa depan.
+- Menampilkan confusion matrix.
+- Menampilkan distribusi hasil prediksi.
 
 ---
 
