@@ -122,6 +122,9 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
     | macro avg                 | 0.95     | 0.95      | 0.95     | 11,696   |
     | weighted avg              | 0.95     | 0.95      | 0.95     | 11,696   |
 
+  - **Distribusi Prediksi**
+     ![Deskripsi Gambar](https://drive.google.com/uc?id=13GxunjnPKMyXMjQo7onjd1Qu7XbRhKcB)
+
 - **Model TabNet**
   - **Confusion Matrix**
     ![Deskripsi Gambar](https://drive.google.com/uc?id=1GBmphsMzuvAVUCP1lWAs9MhfcMrvBjT9)
@@ -136,6 +139,9 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
     | accuracy                  | 0.94     | 0.94      | 0.94     |          |
     | macro avg                 | 0.95     | 0.95      | 0.94     | 11,696   |
     | weighted avg              | 0.95     | 0.94      | 0.94     | 11,696   |
+
+  - **Distribusi Prediksi**
+     ![Deskripsi Gambar](https://drive.google.com/uc?id=1KUz9WOJKbrKIwJIPDGot8pCgVUyxn4vK)
 
 
 ---
