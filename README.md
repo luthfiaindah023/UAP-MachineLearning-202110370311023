@@ -86,6 +86,7 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
   - Kolom numerik diisi dengan rata-rata.
   - Kolom kategorikal diisi dengan nilai modus.
 - **Normalisasi:** Menstandarisasi fitur dan target dengan menggunakan standar scaler.
+- **Augmentasi:** Penyeimbangan kelas dalam dataset dengan menggunakan SMOTE (Synthetic Minority Over-Sampling Technique).
 - **Encoding Kategori:** Mengonversi variabel kategorikal menjadi numerik dengan metode one-hot encoding.
 - **Split Data:** Pembagian data uji 20% dan data latih 80%.
 
@@ -105,10 +106,10 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 ---
 
 ## 📊 Hasil Analisis
-- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 93%.
-- **Decision Tree** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi.
+- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 93%. Karena Random Forest bekerja dengan menggabungkan hasil dari banyak pohon keputusan (ensemble learning), yang membantu mengurangi overfitting dan meningkatkan generalisasi. Dan TabNet menggabungkan teknik attention dan jaringan neural untuk mengidentifikasi fitur penting, membuatnya sangat efektif dalam menangani data yang kompleks dan non-linear.
+- **Decision Tree dan MLPClassifier** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan decision tree sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi. Dan MLPClassifier kurang optimal untuk data yang lebih kompleks dengan interaksi non-linear atau fitur yang sangat bervariasi.
 
-Berikut adalah performa model berdasarkan evaluasi pada data uji:
+Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
 
 - **Model Random Forest**
   - **Confusion Matrix**
