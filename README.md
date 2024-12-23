@@ -106,7 +106,7 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 ---
 
 ## 📊 Hasil Analisis
-- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 93%. Karena Random Forest bekerja dengan menggabungkan hasil dari banyak pohon keputusan (ensemble learning), yang membantu mengurangi overfitting dan meningkatkan generalisasi. Dan TabNet menggabungkan teknik attention dan jaringan neural untuk mengidentifikasi fitur penting, membuatnya sangat efektif dalam menangani data yang kompleks dan non-linear.
+- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 94%. Karena Random Forest bekerja dengan menggabungkan hasil dari banyak pohon keputusan (ensemble learning), yang membantu mengurangi overfitting dan meningkatkan generalisasi. Dan TabNet menggabungkan teknik attention dan jaringan neural untuk mengidentifikasi fitur penting, membuatnya sangat efektif dalam menangani data yang kompleks dan non-linear.
 - **Decision Tree dan MLPClassifier** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan decision tree sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi. Dan MLPClassifier kurang optimal untuk data yang lebih kompleks dengan interaksi non-linear atau fitur yang sangat bervariasi.
 
 Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
@@ -144,7 +144,7 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
     |---------------------------|----------|-----------|----------|----------|
     | No                        | 0.92     | 0.98      | 0.95     | 5,766    |
     | Yes                       | 0.98     | 0.91      | 0.94     | 5,930    |
-    | accuracy                  | 0.94     | 0.94      | 0.94     |          |
+    | accuracy                  | 0.95     | 0.95      | 0.95     |          |
     | macro avg                 | 0.95     | 0.95      | 0.94     | 11,696   |
     | weighted avg              | 0.95     | 0.94      | 0.94     | 11,696   |
 
