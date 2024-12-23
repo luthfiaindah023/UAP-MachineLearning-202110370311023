@@ -156,6 +156,10 @@ Project ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portug
 
 ---
 
-Terima kasih telah menggunakan aplikasi ini!
+## ✍️ Author
+- **Nama**  : Luthfiya Indah Fithriani
+- **NIM**   : 202110370311023 
+- **Kelas** : Pembelajaran Mesin 6C
+
 
 
