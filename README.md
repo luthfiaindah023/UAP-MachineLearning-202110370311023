@@ -3,6 +3,8 @@
 ## 🔖 Deskripsi Project  
 Bank Portugis mengalami penurunan pendapatan dan berusaha mencari solusi untuk mengatasinya. Setelah melakukan investigasi, ditemukan bahwa penyebab utamanya adalah kurangnya investasi dari nasabah pada deposito berjangka. Project ini bertujuan untuk membangun prediksi yang dapat menentukan apakah seorang nasabah akan berlangganan deposito berjangka ("ya/tidak") berdasarkan fitur yang tersedia. Dengan pendekatan berbasis machine learning dan deep learning, analisis ini membantu bank meningkatkan efisiensi promosi pemasaran mereka dengan menargetkan nasabah yang lebih berpotensi.
 
+**Dataset**: [Dataset](https://www.kaggle.com/datasets/rashmiranu/banking-dataset-classification?resource=download&select=new_train.csv).
+
 ### Fitur Dataset
 | **Fitur**     | **Tipe Fitur**         | **Deskripsi**                                                                                                                                         |
 |---------------|------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -23,7 +25,6 @@ Bank Portugis mengalami penurunan pendapatan dan berusaha mencari solusi untuk m
 | poutcome      | Kategorikal (nominal) | Hasil kampanye sebelumnya ('failure','nonexistent','success')                                                                                          |
 | y             | Biner                  | Apakah nasabah berlangganan deposito berjangka? ('yes','no')     
 
-**Dataset**: [Dataset](https://www.kaggle.com/datasets/rashmiranu/banking-dataset-classification?resource=download&select=new_train.csv)
 
 ---
 
@@ -78,20 +79,21 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
 
 ---
 
-## 🚀 Fitur Aplikasi
+## 🚀 Preperocessing dan Modelling
 
 ### Penanganan Data
 - **Mengisi Missing Values:**
   - Kolom numerik diisi dengan rata-rata.
   - Kolom kategorikal diisi dengan nilai modus.
-- **Normalisasi:** Menstandarisasi fitur dan target dengan menggunakan metode standar scaler.
+- **Normalisasi:** Menstandarisasi fitur dan target dengan menggunakan standar scaler.
 - **Encoding Kategori:** Mengonversi variabel kategorikal menjadi numerik dengan metode one-hot encoding.
+- **Split Data:** Pembagian data uji 20% dan data latih 80%.
 
 ### Pemilihan Model
 Aplikasi ini menawarkan berbagai model machine learning:
 1. **Decision Tree**: Model interpretable untuk pengambilan keputusan.
 2. **Random Forest**: Ensambel pohon untuk performa yang lebih stabil.
-3. **Neural Network**: Model berbasis deep learning untuk data kompleks.
+3. **MLPClassifier**: Model jaringan saraf multilayer perceptron (MLP) untuk klasifikasi di scikit-learn.
 4. **TabNet**: Model deep learning mutakhir untuk data tabular.
 
 ### Evaluasi Model
