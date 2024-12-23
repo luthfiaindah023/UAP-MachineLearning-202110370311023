@@ -102,7 +102,7 @@ Aplikasi ini menawarkan berbagai model machine learning:
 ---
 
 ## 📊 Hasil Analisis
-- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 93%
+- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 93%.
 - **Decision Tree** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi.
 
 Berikut adalah performa model berdasarkan evaluasi pada data uji:
@@ -152,7 +152,7 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 ---
 
 ## 🎯 Kesimpulan
-Proyek ini memberikan solusi berbasis machine learning yang dapat membantu bank mengoptimalkan strategi pemasaran mereka. Dengan hasil yang lebih terfokus, bank dapat meningkatkan efisiensi dan efektivitas dalam menarik nasabah untuk berlangganan deposito berjangka.  
+Proyek ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portugis meningkatkan jumlah nasabah yang berlangganan deposito berjangka. Dengan memanfaatkan model seperti Random Forest dan TabNet, bank kini dapat secara akurat mengidentifikasi nasabah yang paling berpotensi untuk berlangganan.
 
 ---
 
