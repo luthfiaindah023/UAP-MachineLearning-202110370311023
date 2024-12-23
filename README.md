@@ -152,7 +152,7 @@ Berikut adalah performa model berdasarkan evaluasi pada data uji:
 ---
 
 ## 🎯 Kesimpulan
-Proyek ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portugis meningkatkan jumlah nasabah yang berlangganan deposito berjangka. Dengan memanfaatkan model seperti Random Forest dan TabNet, bank kini dapat secara akurat mengidentifikasi nasabah yang paling berpotensi untuk berlangganan.
+Project ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portugis meningkatkan jumlah nasabah yang berlangganan deposito berjangka. Dengan memanfaatkan model seperti Random Forest dan TabNet, bank kini dapat secara akurat mengidentifikasi nasabah yang paling berpotensi untuk berlangganan.
 
 ---
 
