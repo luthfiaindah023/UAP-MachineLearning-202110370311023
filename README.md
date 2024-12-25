@@ -106,8 +106,6 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 ---
 
 ## 📊 Hasil Analisis
-- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 94%. Karena Random Forest bekerja dengan menggabungkan hasil dari banyak pohon keputusan (ensemble learning), yang membantu mengurangi overfitting dan meningkatkan generalisasi. Dan TabNet menggabungkan teknik attention dan jaringan neural untuk mengidentifikasi fitur penting, membuatnya sangat efektif dalam menangani data yang kompleks dan non-linear.
-- **Decision Tree dan MLPClassifier** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan decision tree sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi. Dan MLPClassifier kurang optimal untuk data yang lebih kompleks dengan interaksi non-linear atau fitur yang sangat bervariasi.
 
 Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
 
@@ -129,7 +127,7 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
   - **Distribusi Prediksi**
     
      ![Deskripsi Gambar](https://drive.google.com/uc?id=10PGv2K0TAOw-50F03XFd0U0xy238L2fs)
-    
+
 
 - **Model Random Forest**
   - **Confusion Matrix**
@@ -150,6 +148,7 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
   - **Distribusi Prediksi**
     
      ![Deskripsi Gambar](https://drive.google.com/uc?id=13GxunjnPKMyXMjQo7onjd1Qu7XbRhKcB)
+    
 
 - **Model MLPClassifier**
    - **Confusion Matrix**
@@ -170,6 +169,7 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
    - **Distribusi Prediksi**
     
      ![Deskripsi Gambar](https://drive.google.com/ucid=1Wj1TnKV7fvKgqUya9ZR-5FxxA_jyNth0)
+     
 
      
 - **Model TabNet**
@@ -193,10 +193,13 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
      ![Deskripsi Gambar](https://drive.google.com/uc?id=1KUz9WOJKbrKIwJIPDGot8pCgVUyxn4vK)
 
 
+- **Random Forest dan TabNet** menunjukkan hasil atau performa yang baik dengan akurasi lebih dari 94%. Karena Random Forest bekerja dengan menggabungkan hasil dari banyak pohon keputusan (ensemble learning), yang membantu mengurangi overfitting dan meningkatkan generalisasi. Dan TabNet menggabungkan teknik attention dan jaringan neural untuk mengidentifikasi fitur penting, membuatnya sangat efektif dalam menangani data yang kompleks dan non-linear.
+- **Decision Tree dan MLPClassifier** kurang unggul dibandingkan dengan random forest dan tabnet dikarenakan decision tree sulit menangkap pola kompleks dan bisa bias terhadap fitur dominan, sehingga kurang efektif pada data dengan variasi tinggi. Dan MLPClassifier kurang optimal untuk data yang lebih kompleks dengan interaksi non-linear atau fitur yang sangat bervariasi.
+
 ---
 
 ## 🎀 Model
-Model project dapat diakses pada link berikut: ![Model](https://drive.google.com/uc?id=1wCugOWyMpUMNCk2PALhVcMAoKLdpj6dW)
+Model project dapat diakses pada link berikut:[Model](https://drive.google.com/uc?id=1wCugOWyMpUMNCk2PALhVcMAoKLdpj6dW)
 
 ## 🎯 Kesimpulan
 Project ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portugis meningkatkan jumlah nasabah yang berlangganan deposito berjangka. Dengan memanfaatkan model seperti Random Forest dan TabNet, bank kini dapat secara akurat mengidentifikasi nasabah yang paling berpotensi untuk berlangganan.
