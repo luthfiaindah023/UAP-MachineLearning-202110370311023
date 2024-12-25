@@ -69,7 +69,7 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
    pip install pytorch-tabnet
    ```  
 
-6. **Masukkan folder `src` ke dalam lingkungan proyek Anda.**  
+6. **Masukkan folder `src` ke dalam lingkungan project Anda.**  
 
 7. **Jalankan aplikasi:**  
    ```bash
@@ -111,6 +111,26 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 
 Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
 
+- **Model Decision Tree**
+  - **Confusion Matrix**
+
+     ![Confusion Matrix](https://drive.google.com/uc?id=1N7hkHT1uNb-BRyknPOX-762IxFZfYbQy)
+
+  - **Classification Report**
+
+    |                           | Precision|   Recall  | F1-Score | support  |
+    |---------------------------|----------|-----------|----------|----------|
+    | No                        | 0.93     | 0.92      | 0.93     | 5,766    |
+    | Yes                       | 0.92     | 0.94      | 0.93     | 5,930    |
+    | accuracy                  | 0.93     | 0.93      | 0.93     |          |
+    | macro avg                 | 0.93     | 0.93      | 0.93     | 11,696   |
+    | weighted avg              | 0.93     | 0.93      | 0.93     | 11,696   |
+
+  - **Distribusi Prediksi**
+    
+     ![Deskripsi Gambar](https://drive.google.com/uc?id=10PGv2K0TAOw-50F03XFd0U0xy238L2fs)
+    
+
 - **Model Random Forest**
   - **Confusion Matrix**
     
@@ -131,7 +151,27 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
     
      ![Deskripsi Gambar](https://drive.google.com/uc?id=13GxunjnPKMyXMjQo7onjd1Qu7XbRhKcB)
 
+- **Model MLPClassifier**
+   - **Confusion Matrix**
+    
+    ![Deskripsi Gambar](https://drive.google.com/uc?id=1C-uF8w7NpSk3jB0pp-1DVbAHAbq5SQOf)
 
+    - **Classification Report**
+  
+    |                           | Precision|   Recall  | F1-Score | support  |
+    |---------------------------|----------|-----------|----------|----------|
+    | No                        | 0.90     | 0.99      | 0.94     | 5,766    |
+    | Yes                       | 0.99     | 0.89      | 0.94     | 5,930    |
+    | accuracy                  | 0.94     | 0.94      | 0.94     |          |
+    | macro avg                 | 0.94     | 0.94      | 0.94     | 11,696   |
+    | weighted avg              | 0.94     | 0.94      | 0.94     | 11,696   |
+
+
+   - **Distribusi Prediksi**
+    
+     ![Deskripsi Gambar](https://drive.google.com/ucid=1Wj1TnKV7fvKgqUya9ZR-5FxxA_jyNth0)
+
+     
 - **Model TabNet**
   - **Confusion Matrix**
     
@@ -154,6 +194,9 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
 
 
 ---
+
+## 🎀 Model
+Model project dapat diakses pada link berikut: ![Model](https://drive.google.com/uc?id=1wCugOWyMpUMNCk2PALhVcMAoKLdpj6dW)
 
 ## 🎯 Kesimpulan
 Project ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portugis meningkatkan jumlah nasabah yang berlangganan deposito berjangka. Dengan memanfaatkan model seperti Random Forest dan TabNet, bank kini dapat secara akurat mengidentifikasi nasabah yang paling berpotensi untuk berlangganan.
