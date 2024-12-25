@@ -204,6 +204,32 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 Model project dapat diakses pada link berikut: [Model](https://drive.google.com/drive/folders/1wCugOWyMpUMNCk2PALhVcMAoKLdpj6dW?usp=drive_link)
 
 
+## 🌐 Web Deployment
+**Tampilan Homepage**
+
+![Deskripsi Gambar](https://drive.google.com/uc?id=1p77FfpIQenz9-Jd0rG1I5Jlg9Zjr_VVm)
+
+
+**Tampilan Page Upload Data**
+
+![Deskripsi Gambar](https://drive.google.com/uc?id=1f3CVbRbmr637u8a6fs3PO-oGA7YFnZgd)
+
+
+**Tampilan Page Analisis Data**
+
+![Deskripsi Gambar](https://drive.google.com/uc?id=1yBBEqc6e_JhCnSAFfN9GXXEec3myLmRy)
+
+
+**Tampilan Page Klasifikasi**
+
+![Deskripsi Gambar](https://drive.google.com/uc?id=1TGBe90YvjzO3_21VlCUKxwPMGtjbczn-)
+
+
+**Tampilan Page Hasil**
+
+![Deskripsi Gambar](https://drive.google.com/uc?id=1fgujc29qOnAtrjDYagfgSWeN1keMCqXJ)
+
+
 ## 🎯 Kesimpulan
 Project ini berhasil menghadirkan solusi yang efektif untuk membantu Bank Portugis meningkatkan jumlah nasabah yang berlangganan deposito berjangka. Dengan memanfaatkan model seperti Random Forest dan TabNet, bank kini dapat secara akurat mengidentifikasi nasabah yang paling berpotensi untuk berlangganan.
 
