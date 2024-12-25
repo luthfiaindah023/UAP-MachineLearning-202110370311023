@@ -107,8 +107,6 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 
 ## 📊 Hasil Analisis
 
-Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
-
 - **Model Decision Tree**
   - **Confusion Matrix**
 
@@ -127,6 +125,8 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
   - **Distribusi Prediksi**
     
      ![Deskripsi Gambar](https://drive.google.com/uc?id=10PGv2K0TAOw-50F03XFd0U0xy238L2fs)
+
+
 
 
 - **Model Random Forest**
@@ -148,6 +148,8 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
   - **Distribusi Prediksi**
     
      ![Deskripsi Gambar](https://drive.google.com/uc?id=13GxunjnPKMyXMjQo7onjd1Qu7XbRhKcB)
+
+
     
 
 - **Model MLPClassifier**
@@ -169,8 +171,10 @@ Berikut adalah hasil dari model yang unggul, yaitu Random Forest dan TabNet:
    - **Distribusi Prediksi**
     
      ![Deskripsi Gambar](https://drive.google.com/ucid=1Wj1TnKV7fvKgqUya9ZR-5FxxA_jyNth0)
-     
 
+
+
+     
      
 - **Model TabNet**
   - **Confusion Matrix**
