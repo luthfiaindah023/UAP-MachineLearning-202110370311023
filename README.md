@@ -86,7 +86,7 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
   - Kolom numerik diisi dengan rata-rata.
   - Kolom kategorikal diisi dengan nilai modus.
 - **Normalisasi:** Menstandarisasi fitur dan target dengan menggunakan standar scaler.
-- **Augmentasi:** Penyeimbangan kelas dalam dataset dengan menggunakan SMOTE (Synthetic Minority Over-Sampling Technique).
+- **Resampling:** Proses penyeimbangan distribusi kelas dalam dataset dengan menggunakan SMOTE (Synthetic Minority Over-Sampling Technique).
 - **Encoding Kategori:** Mengonversi variabel kategorikal menjadi numerik dengan metode one-hot encoding.
 - **Split Data:** Pembagian data uji 20% dan data latih 80%.
 
