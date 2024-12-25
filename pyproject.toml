@@ -1,0 +1,22 @@
+[project]
+name = "projectuap"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "luthfiyaindah11", email = "luthfiyafithriani@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-backend"]
+build-backend = "pdm.backend"
+
+
+[tool.pdm]
+distribution = true
+
+[tool.pdm.scripts]
+start = "streamlit run ./src/app.py"
