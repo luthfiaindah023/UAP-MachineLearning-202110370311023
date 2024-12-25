@@ -159,13 +159,13 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 
     - **Classification Report**
   
-     |                           | Precision|   Recall  | F1-Score | support  |
-     |---------------------------|----------|-----------|----------|----------|
-     | No                        | 0.90     | 0.99      | 0.94     | 5,766    |
-     | Yes                       | 0.99     | 0.89      | 0.94     | 5,930    |
-     | accuracy                  | 0.94     | 0.94      | 0.94     |          |
-     | macro avg                 | 0.94     | 0.94      | 0.94     | 11,696   |
-     | weighted avg              | 0.94     | 0.94      | 0.94     | 11,696   |
+      |                           | Precision|   Recall  | F1-Score | support  |
+      |---------------------------|----------|-----------|----------|----------|
+      | No                        | 0.90     | 0.99      | 0.94     | 5,766    |
+      | Yes                       | 0.99     | 0.89      | 0.94     | 5,930    |
+      | accuracy                  | 0.94     | 0.94      | 0.94     |          |
+      | macro avg                 | 0.94     | 0.94      | 0.94     | 11,696   |
+      | weighted avg              | 0.94     | 0.94      | 0.94     | 11,696   |
 
 
    - **Distribusi Prediksi**
