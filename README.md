@@ -155,7 +155,7 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 - **Model MLPClassifier**
    - **Confusion Matrix**
     
-    ![Deskripsi Gambar](https://drive.google.com/uc?id=1C-uF8w7NpSk3jB0pp-1DVbAHAbq5SQOf)
+     ![Deskripsi Gambar](https://drive.google.com/uc?id=1C-uF8w7NpSk3jB0pp-1DVbAHAbq5SQOf)
 
     - **Classification Report**
   
