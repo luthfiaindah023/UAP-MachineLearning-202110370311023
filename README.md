@@ -201,7 +201,7 @@ Aplikasi ini menggunakan berbagai model, yaitu:
 ---
 
 ## 🎀 Model
-Model project dapat diakses pada link berikut: ![Model](https://drive.google.com/uc?id=1wCugOWyMpUMNCk2PALhVcMAoKLdpj6dW)
+Model project dapat diakses pada link berikut: [Model](https://drive.google.com/uc?id=1wCugOWyMpUMNCk2PALhVcMAoKLdpj6dW)
 
 
 ## 🎯 Kesimpulan
