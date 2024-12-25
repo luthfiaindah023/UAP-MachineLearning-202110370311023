@@ -54,7 +54,7 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
    pip install pdm
    ```  
 
-4. **Inisialisasi proyek dengan PDM:**  
+4. **Inisialisasi project dengan PDM:**  
    ```bash
    pdm init
    ```  
