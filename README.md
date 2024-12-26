@@ -69,13 +69,30 @@ Ikuti langkah-langkah berikut untuk mengatur lingkungan dan menjalankan aplikasi
    pip install pytorch-tabnet
    ```  
 
-6. **Masukkan folder `src` ke dalam lingkungan project Anda.**  
+6. **Masukkan folder `src` ke dalam lingkungan project Anda.**
 
-7. **Jalankan aplikasi:**  
+
+7. **Pada file `pyproject.toml` tambahkan code berikut:**  
    ```bash
-   pdm run streamlit run app.py
+   [tool.pdm.scripts]
+   start = "streamlit run ./src/app.py"
    ```  
 
+8. **Masuk Kedalam Direktori:**  
+   ```bash
+   cd src/uapproject
+   ```  
+
+9. **Jalankan aplikasi:**  
+   ```bash
+   pdm run streamlit run app.py
+   ```
+   
+   atau
+
+```bash
+   pdm run start
+   ```
 
 ---
 
